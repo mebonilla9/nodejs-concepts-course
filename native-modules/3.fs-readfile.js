@@ -1,9 +1,27 @@
 const fs = require('node:fs')
 
 console.log('Reading the first file')
-const text = fs.readFileSync('./native-modules/file.txt', 'utf-8')
-console.log(text)
+
+/**
+ * Removing sync work with file reader to async
+ * Adding callback to retrive the result of reading task
+ */
+//const text = fs.readFileSync('./native-modules/file.txt', 'utf-8')
+fs.readFile(
+    './native-modules/file.txt', 
+    'utf-8',
+    (err, text) => { // <--- execute this callback
+        console.log('--- first text ---',text)
+    }
+)
+
+console.log('Do something meanwhile reading the file...')
 
 console.log('Reading the second file')
-const textSecond = fs.readFileSync('./native-modules/file-2.txt', 'utf-8')
-console.log(textSecond)
+fs.readFile(
+    './native-modules/file-2.txt', 
+    'utf-8',
+    (err, text) => {
+        console.log('--- second text ---',text)
+    }
+)
