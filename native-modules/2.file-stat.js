@@ -12,5 +12,5 @@ console.log(
   stats.isFile(), // <-- check if is a file
   stats.isDirectory(), // <-- check if is a folder/directory
   stats.isSymbolicLink(), // <-- is a symbolic link
-  stats.size, // <-- size of file in bytes
+  stats.size // <-- size of file in bytes
 )

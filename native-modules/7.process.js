@@ -2,12 +2,12 @@
 
 console.log(process.argv)
 
-//process.exit(1)
+// process.exit(1)
 
 // Manage event on process object
 
 process.on('exit', () => {
-    // clear resources
+  // clear resources
 })
 
 // Current working directory

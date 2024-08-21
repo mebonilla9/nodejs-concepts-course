@@ -10,4 +10,3 @@ console.log('Reading the second file')
 
 const secondText = fs.readFileSync('./native-modules/file.txt', 'utf-8')
 console.log(secondText)
-

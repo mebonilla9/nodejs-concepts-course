@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-concepts-course",
+  "version": "1.0.0",
+  "description": "Example and relearing all nodejs concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mebonilla9/nodejs-concepts-course.git"
+  },
+  "keywords": [
+    "course",
+    "node",
+    "nodejs"
+  ],
+  "author": "Manuel Ernesto Bonilla Muñoz - DevManuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mebonilla9/nodejs-concepts-course/issues"
+  },
+  "homepage": "https://github.com/mebonilla9/nodejs-concepts-course#readme",
+  "dependencies": {
+    "picocolors": "1.0.1"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}

@@ -1,8 +1,8 @@
-/** 
+/**
  * Import native module get info of the OS
  * not use os module after node v16 replace with node:os
  */
-//const os = require('os')
+// const os = require('os')
 import { platform, version, arch, cpus, freemem, totalmem, uptime } from 'node:os'
 
 console.log('Operative System information:')

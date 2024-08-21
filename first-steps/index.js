@@ -1,6 +1,6 @@
 /**
  * Basic Instruction to print in the js console
- * 
+ *
  * To run the script -> node index.js
  */
 console.log('Hola, Mundo 👏🏻')
